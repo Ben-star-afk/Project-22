@@ -3,10 +3,16 @@
 <body>
     <p id="result"></p>
     <script>
-        
-            var r;
-            var sum= "num1 + num2 + num3" 
-        
+         function findMax() {
+                var i;
+                var sum = "sum of all arguments"
+                for (i = 0; i < arguments.length; i++) {
+                    if (arguments[i] > max) {
+                        max = arguments[i];
+                    }
+                }
+                return sum;
+            }
         document.getElementById("result").innerHTML=(4+5+9)  
     </script>
 </body>
